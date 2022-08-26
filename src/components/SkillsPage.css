@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Dongle&family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Neonderthaw&display=swap');
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Dongle', sans-serif;
+  
+}
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.skillsSection {
+    width: 100%;
+    height: 600px;
+    margin-top: 40px;
+}
+
+
+.headerBlock1 {
+    width: 100%;
+    height: auto;   
+    margin-bottom: 10%;
+    
+}
+.headerBlock1 .title {
+    font-size: 75px;
+    margin-left: 12%;
+    
+}
+.ba {
+    width: 70px;
+    height: 5px;
+    margin-left: 12%;
+    background-color: gray;
+    margin-top: -6.9%;
+}
+.subtitle {
+    margin-left: 12%;
+    margin-top: -0.5%;
+    font-size: 35px;
+    color: black;
+}
+
+
+
+
+
+.chartBlock {
+    width: 50%;
+    height: 400px;
+    float: left;
+
+}
+.chartItemTitle {
+    float: left;
+    font-size: 30px;
+}
+.percent {
+    font-size: 30px;
+    color: rgb(95, 95, 95);
+    float: right;
+    
+}
+.mainChart {
+    width: 73%;
+    height: 200px;
+    margin-top: -14%;
+    margin-left: 24%;
+
+}
+.chartItem {
+    width: 100%;
+    height: 8px;
+    background-color: rgb(182, 182, 182);
+    
+    float: left;
+}
+.percentfill {
+    
+    height: 8px;
+    background-color: rgb(95, 95, 95);
+}
+.html {
+    width: 86%;
+}
+.javas {
+    width: 76%;
+}
+.react {
+    width: 71%;
+}
+.figma {
+    width: 11%;
+}
+
+
+
+
+
+
+.aimBlock {
+    width: 50%;
+    height: 400px;
+    float: left;
+    
+    margin-top: -11%;
+    margin-left: 1;
+}
+.aimItem {
+    width: 35%;
+    height: 130px;
+    border: 2px solid rgb(95, 95, 95);
+    border-radius: 10px;
+    background-color: white;
+    margin-top: 4%;
+    margin-left: 4%;
+    float: left;
+    box-shadow: -3px 1px 34px 6px rgba(80, 80, 80, 0.11);
+    transition: 450ms;
+}
+.aimItem:hover {
+    cursor: pointer;
+    transform: translateY(-10px);
+    box-shadow: transparent;
+}
+.b1 {
+    margin-left: 12%;
+
+}
+.aimIcon {
+    font-size: 45px;
+    margin-left: 14px;
+}
+.aimCont h6 {
+
+    width: 60%;
+    line-height: 1.6rem;
+    margin-top: -70px;
+    margin-left: 30%;
+    font-size: 37px;
+    font-weight: 500;
+}
+
+
+@media screen and (max-width: 1150px)  {
+    .chartBlock {
+        width: 100%;
+        margin-top: 12%;
+        margin-left: -12%;
+    }
+    .aimBlock  {
+        width: 100%;
+        margin-top: -27%;
+    }
+    .skillsSection {
+        width: 100%;
+        height: 900px;
+    }
+}

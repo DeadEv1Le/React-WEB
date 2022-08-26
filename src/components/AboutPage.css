@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Dongle&family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Neonderthaw&display=swap');
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Dongle', sans-serif;
+  
+}
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+.skillsSection {
+    width: 100%;
+    height: 700px;
+    
+    margin-top: 20%;
+}
+
+
+
+/*==========About Page Design=========== */
+.about__section {
+    width: 100%;
+    height: 600px;
+    margin-top: 24%;
+    background-color: rgba(234,237,242,255);
+    
+}
+.headerBlock {
+    width: 100%;
+    height: auto;
+    
+}
+.headerBlock .title {
+    font-size: 75px;
+    margin-left: 12%;
+    
+}
+.ba {
+    width: 70px;
+    height: 5px;
+    margin-left: 12%;
+    background-color: gray;
+    margin-top: -6.9%;
+}
+.subtitle {
+    margin-left: 12%;
+    margin-top: -0.5%;
+    font-size: 35px;
+    color: black;
+}
+.imageBlock {
+    width: 40%;
+    float: left;
+
+}
+.imageContainer {
+    width: 66%;
+    height: 500px;
+    box-shadow: 1px 4px 16px 2px rgba(34, 60, 80, 0.3);
+    border-radius: 10px;
+    margin-left: 28%;
+    border: 6px solid gray;
+}
+.imageBlock img {
+    width: 80%;
+    height: auto;
+    margin-left: 24%;
+}
+
+.contentBlock {
+    width: 50%;
+    height: 400px;
+    float: left;
+    margin-left: 55px;
+    border-left: 2px solid black;
+}
+.contentTitle {
+    font-size: 55px;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+.contentSubTitle {
+    font-size: 32px;
+    margin-top: -11%;
+    margin-left: 20px;
+}
+.cont {
+    color: gray;
+    font-size: 30px;
+    line-height: 1.4rem;
+    margin-left: 20px;
+
+}
+
+
+.aboutList  {
+    width: 23%;
+    height: 185px;
+    border-right: 2px solid black;
+    float: left;
+}
+.listItem {
+    font-size: 28px;
+    
+}
+.aboutList2 {
+    width: 23%;
+    height: 160px;
+    float: left;
+    color: gray;
+}
+.abBtn {
+    width: 180px;
+    height: 50px;
+    background-color: black;
+    border: 1px solid transparent;
+    color: white;
+    font-family: 'Dongle', sans-serif;
+    font-size: 30px;
+    border-radius: 10px;
+    margin-top: 130px;
+    margin-left: 20%;
+    transition: 450ms;
+    
+    animation-duration: 1s;
+
+}
+.abBtn:hover {
+    
+    background-color: white;
+    color: black;
+    cursor: pointer;
+    border: 2px solid black;
+}
+@media  screen and (max-width: 1400px) {
+    .about__section {
+        width: 100%;
+        height: 700px;
+    }
+}
+
+@media screen and (min-width: 1150px) and (max-width: 1280px) {
+    
+} 
+@media screen and (max-width:1150px) and (min-width: 1000px) {
+   .abBtn {
+    display: none;
+   }
+
+}
+@media screen and (max-width: 1000px) and (min-width: 790px) {
+   
+    .about__section {
+        width: 100%;
+        height: 800px;
+    }
+    .aboutList {
+        width: 150px;
+    }
+   
+    .imageBlock {
+        display: none;
+    }
+    .contentBlock {
+        width: 100%;
+        height: 440px;
+    }
+    .cont {
+        width: 90%;
+    }
+} 
+@media screen and (max-width: 790px){
+    .imageBlock {
+        display: none;
+    }
+    .contentBlock {
+        width: 100%;
+        height: 440px;
+    }
+    .cont {
+        width: 90%;
+    }
+}

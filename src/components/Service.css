@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Dongle&family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Neonderthaw&display=swap');
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Dongle', sans-serif;
+  
+}
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+
+.headerBlock2 {
+    width: 100%;
+    height: auto;   
+    margin-bottom: 10%;
+    
+}
+.headerBlock2 .title {
+    font-size: 75px;
+    margin-left: 12%;
+}
+.ba {
+    width: 70px;
+    height: 5px;
+    margin-left: 12%;
+    background-color: gray;
+    margin-top: -6.9%;
+}
+.subtitle {
+    margin-left: 12%;
+    margin-top: -0.5%;
+    font-size: 35px;
+    color: black;
+} 
+
+.serviceSection {
+    width: 100%;
+    height: 800px;
+    background-color: rgba(234,237,242,255);
+
+    margin-top: 100px;
+
+
+}
+
+
+.serviceCont {
+    margin-left: 9%;
+    width: 80%;
+    height: auto;
+    
+    margin-top: -8%;
+}
+.serviceBlock {
+    width: 30%;
+    height: 250px;
+    transition: 250ms;
+    border-radius: 10px;
+    margin-left: 3%;
+    float: left;
+    margin-top: 3%;
+    background-color: white;
+    box-shadow: -3px 1px 34px 6px rgba(80, 80, 80, 0.11);
+}
+.serviceBlock:hover {
+    transform: translateY(-10px);
+    background-color: black;
+    color: white;
+   
+}
+.serviceBlock:hover .iconBlock{
+    border: 2px solid white;
+}
+
+.serviceBlock:hover .info{
+    color: white;
+}
+.serviceBlock .iconBlock {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    border: 2px dotted rgb(50, 50, 50);
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    margin-top: 8%;
+    margin-left: 10%;
+}
+.serviceBlock:hover .esshatgidamTitle {
+    color: white;
+}
+.iconBlock .icon {
+    margin-top: 12px;
+
+}
+.serviceBlockCont {
+    color: gray;
+    font-size: 27px;
+
+}
+.esshatgidamTitle {
+    color: black;
+    font-size: 30px;
+    margin-left: 10%;
+    margin-top: 1%;
+}
+.info {
+    color: rgb(90, 90, 90);
+    margin-left: 10%;
+    margin-top: -6%;
+    font-size: 28px;
+    line-height: 1.5rem;
+    
+   
+
+    
+
+    
+}
+@media screen and (max-width: 1100px ) and (min-width: 350px) {
+    .serviceBlock {
+        width: 40%;
+    }
+    .serviceCont {
+        width: 100%;
+    }
+    .serviceSection {
+        width: 100%;
+        height: 1100px;
+    }
+}
